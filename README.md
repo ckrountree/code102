@@ -1,4 +1,6 @@
-# Code 102: Fundamentals of Code - this is a different branch
+
+# Code 102: Fundamentals of Code - OMG!  I really want to get git
+
 
 Welcome to Code 102! We're going to spend five nights covering the essentials of JavaScript, Git and the command line. By the end of this week you'll have leveled up your development skills -- whether you're heading into the 201, testing into the 301, or just trying to get a head start on self-study.
 
