@@ -1,28 +1,31 @@
 var day = 'Thursday',
     thursday = 'thursday';
-
-// How many equals signs does it take to screw your code?
-if (day = 'thursday') {
-  console.log('Test 1: Well lookee there, it\'s ' + day);
-}
-
-// The case of the failing "if" statement
-if (day == 'Thursday') {
-  console.log('Test 2: Lo and behold, it\'s ' + day);
-}
-
-// Equals thrice, test once
-if (day === 'Thursday') {
-  console.log('Test 3: Huh. It\'s ' + day);
-}
+//
+// // How many equals signs does it take to screw your code?
+// if (day = 'thursday') {
+//   console.log('Test 1: Well lookee there, it\'s ' + day);
+// }
+//
+// // The case of the failing "if" statement
+// if (day == 'Thursday') {
+//   console.log('Test 2: Lo and behold, it\'s ' + day);
+// }
+//
+// // Equals thrice, test once
+// if (day === 'Thursday') {
+//   console.log('Test 3: Huh. It\'s ' + day);
+// }
 
 // TODO: After commenting out the 3 conditionals above,
 //       uncomment this code and run it.
-// if (day === 'Thursday') {
-//   console.log('Is it Friday yet?');
-// } else {
-//   console.log('Whistle while you work!')
-// }
+if (day === 'Thursday') {
+  console.log('Is it Friday yet?');
+} else if (day === 'Saturday' || day === 'Sunday') {
+  console.log('Can I breath, yet?');
+} else {
+  console.log('Whistle while you work!')
+}
+
 
 // TODO: Add an "else if" block to check whether it's Saturday
 //       and console.log() a different statement for the weekend.
